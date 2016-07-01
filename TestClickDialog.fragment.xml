@@ -1,0 +1,19 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:programic="programic">
+
+	<programic:ClickDialog id="idClickDialog1"
+		title="ClickDialog created from XML fragment"
+		afterClose="fragmentAfterClose">
+
+		<programic:content>
+			<Text text="Some text..." />
+		</programic:content>
+		<programic:beginButton>
+			<Button
+				text="Close"
+				press="fragmentButtonPress" />
+		</programic:beginButton>
+	</programic:ClickDialog>
+</core:FragmentDefinition>
